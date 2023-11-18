@@ -1,0 +1,150 @@
+  /* light theme */
+  /* light theme - RGB, fallback */
+  /* surfaces */
+  --color-surf-light: rgb(var(--color-rgb-neutral-98));
+  --color-surf-dim-light: rgb(var(--color-rgb-neutral-87));
+  --color-surf-bright-light: rgb(var(--color-rgb-neutral-98));
+  --color-surf-cont-lowst-light: rgb(var(--color-rgb-neutral-99));
+  --color-surf-cont-low-light: rgb(var(--color-rgb-neutral-96));
+  --color-surf-cont-light: rgb(var(--color-rgb-neutral-94));
+  --color-surf-cont-high-light: rgb(var(--color-rgb-neutral-92));
+  --color-surf-cont-highst-light: rgb(var(--color-rgb-neutral-90));
+  /* on surfaces */
+  --color-on-surf-light: rgb(var(--color-rgb-neutral-10));
+  --color-on-surf-var-light: rgb(var(--color-rgb-neutral-variant-30));
+  /* outline */
+  --color-otl-light: rgb(var(--color-rgb-neutral-variant-50));
+  --color-otl-var-light: rgb(var(--color-rgb-neutral-variant-80));
+  /* primary colors */
+  --color-prim-light: rgb(var(--color-rgb-primary-40));
+  --color-prim-cont-light: rgb(var(--color-rgb-primary-90));
+  --color-on-prim-light: rgb(var(--color-rgb-primary-99));
+  --color-on-prim-cont-light: rgb(var(--color-rgb-primary-10));
+  /* secondary colors */
+  --color-secd-light: rgb(var(--color-rgb-secondary-40));
+  --color-secd-cont-light: rgb(var(--color-rgb-secondary-90));
+  --color-on-secd-light: rgb(var(--color-rgb-secondary-99));
+  --color-on-secd-cont-light: rgb(var(--color-rgb-secondary-10));
+  /* tertiary colors */
+  --color-tert-light: rgb(var(--color-rgb-tertiary-40));
+  --color-tert-cont-light: rgb(var(--color-rgb-tertiary-90));
+  --color-on-tert-light: rgb(var(--color-rgb-tertiary-99));
+  --color-on-tert-cont-light: rgb(var(--color-rgb-tertiary-10));
+  /* error colors */
+  --color-err-light: rgb(var(--color-rgb-error-40));
+  --color-err-cont-light: rgb(var(--color-rgb-error-90));
+  --color-on-err-light: rgb(var(--color-rgb-error-99));
+  --color-on-err-cont-light: rgb(var(--color-rgb-error-10));
+
+  /* light theme - Oklch */
+  /* surfaces */
+  --color-surf-light: oklch(var(--color-oklch-neutral-98));
+  --color-surf-dim-light: oklch(var(--color-oklch-neutral-87));
+  --color-surf-bright-light: oklch(var(--color-oklch-neutral-98));
+  --color-surf-cont-lowst-light: oklch(var(--color-oklch-neutral-99));
+  --color-surf-cont-low-light: oklch(var(--color-oklch-neutral-96));
+  --color-surf-cont-light: oklch(var(--color-oklch-neutral-94));
+  --color-surf-cont-high-light: oklch(var(--color-oklch-neutral-92));
+  --color-surf-cont-highst-light: oklch(var(--color-oklch-neutral-90));
+  /* on surfaces */
+  --color-on-surf-light: oklch(var(--color-oklch-neutral-10));
+  --color-on-surf-var-light: oklch(var(--color-oklch-neutral-variant-30));
+  /* outline */
+  --color-otl-light: oklch(var(--color-oklch-neutral-variant-50));
+  --color-otl-var-light: oklch(var(--color-oklch-neutral-variant-80));
+  /* primary colors */
+  --color-prim-light: oklch(var(--color-oklch-primary-40));
+  --color-prim-cont-light: oklch(var(--color-oklch-primary-90));
+  --color-on-prim-light: oklch(var(--color-oklch-primary-99));
+  --color-on-prim-cont-light: oklch(var(--color-oklch-primary-10));
+  /* secondary colors */
+  --color-secd-light: oklch(var(--color-oklch-secondary-40));
+  --color-secd-cont-light: oklch(var(--color-oklch-secondary-90));
+  --color-on-secd-light: oklch(var(--color-oklch-secondary-99));
+  --color-on-secd-cont-light: oklch(var(--color-oklch-secondary-10));
+  /* tertiary colors */
+  --color-tert-light: oklch(var(--color-oklch-tertiary-40));
+  --color-tert-cont-light: oklch(var(--color-oklch-tertiary-90));
+  --color-on-tert-light: oklch(var(--color-oklch-tertiary-99));
+  --color-on-tert-cont-light: oklch(var(--color-oklch-tertiary-10));
+  /* error colors */
+  --color-err-light: oklch(var(--color-oklch-error-40));
+  --color-err-cont-light: oklch(var(--color-oklch-error-90));
+  --color-on-err-light: oklch(var(--color-oklch-error-99));
+  --color-on-err-cont-light: oklch(var(--color-oklch-error-10));
+
+  /* dark theme */
+  /* dark theme - RGB, fallback */
+  /* surfaces */
+  --color-surf-dark: rgb(var(--color-rgb-neutral-6));
+  --color-surf-dim-dark: rgb(var(--color-rgb-neutral-6));
+  --color-surf-bright-dark: rgb(var(--color-rgb-neutral-24));
+  --color-surf-cont-lowst-dark: rgb(var(--color-rgb-neutral-4));
+  --color-surf-cont-low-dark: rgb(var(--color-rgb-neutral-10));
+  --color-surf-cont-dark: rgb(var(--color-rgb-neutral-12));
+  --color-surf-cont-high-dark: rgb(var(--color-rgb-neutral-17));
+  --color-surf-cont-highst-dark: rgb(var(--color-rgb-neutral-22));
+  /* on sucfaces */
+  --color-on-surf-dark: rgb(var(--color-rgb-neutral-90));
+  --color-on-surf-var-dark: rgb(var(--color-rgb-neutral-variant-80));
+  /* outline */
+  --color-otl-dark: rgb(var(--color-rgb-neutral-variant-60));
+  --color-otl-var-dark: rgb(var(--color-rgb-neutral-variant-30));
+  /* primary colors */
+  --color-prim-dark: rgb(var(--color-rgb-primary-80));
+  --color-prim-cont-dark: rgb(var(--color-rgb-primary-30));
+  --color-on-prim-dark: rgb(var(--color-rgb-primary-20));
+  --color-on-prim-cont-dark: rgb(var(--color-rgb-primary-90));
+  /* secondary colors */
+  --color-secd-dark: rgb(var(--color-rgb-secondary-80));
+  --color-secd-cont-dark: rgb(var(--color-rgb-secondary-30));
+  --color-on-secd-dark: rgb(var(--color-rgb-secondary-20));
+  --color-on-secd-cont-dark: rgb(var(--color-rgb-secondary-90));
+  /* tertiary colors */
+  --color-tert-dark: rgb(var(--color-rgb-tertiary-80));
+  --color-tert-cont-dark: rgb(var(--color-rgb-tertiary-30));
+  --color-on-tert-dark: rgb(var(--color-rgb-tertiary-20));
+  --color-on-tert-cont-dark: rgb(var(--color-rgb-tertiary-90));
+  /* error colors */
+  --color-err-dark: rgb(var(--color-rgb-error-80));
+  --color-err-cont-dark: rgb(var(--color-rgb-error-30));
+  --color-on-err-dark: rgb(var(--color-rgb-error-20));
+  --color-on-err-cont-dark: rgb(var(--color-rgb-error-90));
+
+  /* dark theme - Oklch */
+  /* surfaces */
+  --color-surf-dark: oklch(var(--color-oklch-neutral-6));
+  --color-surf-dim-dark: oklch(var(--color-oklch-neutral-6));
+  --color-surf-bright-dark: oklch(var(--color-oklch-neutral-24));
+  --color-surf-cont-lowst-dark: oklch(var(--color-oklch-neutral-4));
+  --color-surf-cont-low-dark: oklch(var(--color-oklch-neutral-10));
+  --color-surf-cont-dark: oklch(var(--color-oklch-neutral-12));
+  --color-surf-cont-high-dark: oklch(var(--color-oklch-neutral-17));
+  --color-surf-cont-highst-dark: oklch(var(--color-oklch-neutral-22));
+  /* on sucfaces */
+  --color-on-surf-dark: oklch(var(--color-oklch-neutral-90));
+  --color-on-surf-var-dark: oklch(var(--color-oklch-neutral-variant-80));
+  /* outline */
+  --color-otl-dark: oklch(var(--color-oklch-neutral-variant-60));
+  --color-otl-var-dark: oklch(var(--color-oklch-neutral-variant-30));
+  /* primary colors */
+  --color-prim-dark: oklch(var(--color-oklch-primary-80));
+  --color-prim-cont-dark: oklch(var(--color-oklch-primary-30));
+  --color-on-prim-dark: oklch(var(--color-oklch-primary-20));
+  --color-on-prim-cont-dark: oklch(var(--color-oklch-primary-90));
+  /* secondary colors */
+  --color-secd-dark: oklch(var(--color-oklch-secondary-80));
+  --color-secd-cont-dark: oklch(var(--color-oklch-secondary-30));
+  --color-on-secd-dark: oklch(var(--color-oklch-secondary-20));
+  --color-on-secd-cont-dark: oklch(var(--color-oklch-secondary-90));
+  /* tertiary colors */
+  --color-tert-dark: oklch(var(--color-oklch-tertiary-80));
+  --color-tert-cont-dark: oklch(var(--color-oklch-tertiary-30));
+  --color-on-tert-dark: oklch(var(--color-oklch-tertiary-20));
+  --color-on-tert-cont-dark: oklch(var(--color-oklch-tertiary-90));
+  /* error colors */
+  --color-err-dark: oklch(var(--color-oklch-error-80));
+  --color-err-cont-dark: oklch(var(--color-oklch-error-30));
+  --color-on-err-dark: oklch(var(--color-oklch-error-20));
+  --color-on-err-cont-dark: oklch(var(--color-oklch-error-90));
+}
