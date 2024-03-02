@@ -8,7 +8,7 @@
 
 Выбор цвета (Color Picker) сформирован на основе "[react-colorful](https://www.npmjs.com/package/react-colorful)".
 
-Деплой: [https://oklabtones.onrender.com](https://oklabtones.onrender.com) 
+Деплой: [https://oklabtones.onrender.com](https://oklabtones.onrender.com)
 <br>&emsp;&emsp;&emsp;&emsp;<sub>*страница может долго загружаться из-за особенностей работы хостинга «Render»*</sub>
 
 ## 2. Стек технологий
@@ -22,11 +22,11 @@
 ![Иконка HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
 ![Иконка Express](https://img.shields.io/badge/Express-000?logo=express&logoColor=white&style=for-the-badge)
 
-## 3. Установка и запуск приложения в локальном репозитории
+## 3. Установка и запуск проекта в локальном репозитории
 
-1. `https://github.com/alexpar-wd/oklab-tones-deploy.git` - клонировать репозиторий (HTTPS) на локальный компьютер
+1. `git clone https://github.com/learnwbdev/oklab-tones-deploy.git` - клонировать репозиторий (HTTPS) на локальный компьютер
 2. `pnpm i` или `npm i` - установить зависимости
-4. `pnpm dev` или `npm dev` - запустить в режиме разработки
+4. `pnpm dev` или `npm run dev` - запустить в режиме разработки
 5. В браузере перейти по ссылке `http://localhost:8080/`
 
 ## 4. Процесс создания
